@@ -1,0 +1,254 @@
+@media screen and (max-width: 768px)
+{
+	html{
+	  max-width: 768px;
+	}
+  body{
+  	box-sizing: border-box;
+    min-width: 360px;
+    max-width: 768px;
+    padding: 0;
+    margin-left: 2rem;
+  }
+ #en-tete nav{
+    margin-left: 3rem;
+    }
+  #en-tete nav a:hover{
+     border-top: none;
+     border-bottom: 2px solid #0065fc;
+       
+    }
+    #en-tete{ 
+      display: flex;
+      flex-direction: column;
+    }
+    #logo{
+
+     margin-left: 8rem;
+    }
+    h1{
+      margin-left: 1rem;
+    }
+  h1, h3{
+    font-size: 11px;
+  }
+  
+  h3{
+    margin-left: 1rem;
+  }
+  h2{
+    font-size: 9px;
+  }
+  p{
+    font-size: 8px;
+  }
+  span{
+    font-size: 8.5px;
+  }
+  strong{
+  	font-size: 8.5px;
+  }
+  .trouver{
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+  }
+  .localisation{
+    position: relative;
+    right: -0.1rem;
+    border-radius: 8px 0px 0px 8px;
+    width: 1.7rem;
+    height: 1.7rem;
+  }
+  .localisation i{
+    font-size: 11px;
+  }
+  .ville{
+    width:8rem;
+    height: 1.5rem;
+  }
+  .Rechercher{
+    display: none;
+  }
+  .loupe{
+   position: relative;
+   left: -0.6rem;
+   bottom: -0.1rem;
+   display: inline-block;
+   background-color: #0065fc;
+   color: white;
+   border: none;
+   width: 1.7rem;
+   height: 1.7rem;
+   border-radius: 8px;
+}
+.loupe i{
+  font-size: 10px;
+
+}
+  #filtres{
+    position: relative;
+    left: -1.5rem;
+    top: -1rem;
+  	width: 10rem;
+  	display: flex;
+    flex-direction: column;
+  }
+  #filtres h3{
+    position: relative;
+    bottom: -0.5rem ;
+    font-size: 9px;
+    margin-left: 1.5rem;
+  }
+  #filtres button{
+    font-size: 9px;
+    max-width: fit-content;
+}
+.icone{
+  font-weight: bold;
+}
+.icones-petite-reolution{
+ display: inline-flex;
+}
+.info{
+  position: relative;
+  top: -1rem;
+}
+.info img{
+  margin-left: 0;
+  margin-right: 5px;
+}
+  #generale{
+  	height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+ }
+ #Hebergements{
+  position: relative;
+  left: -1rem;
+  top: -2rem;
+  background-color: white;
+ }
+ #Hebergements h1{
+  font-size: 11px;
+ }
+ #Hebergements a:hover{
+  border-bottom: 2px solid #0065fc;
+ }
+ #Hebergements .carte{
+  box-shadow: #f2f2f2 2px 2px 2px 2px;
+  width: 16.9rem;
+  height: 8rem;
+ }
+#Hebergements .carte-image {
+   width: 16.9rem;
+   height:5.3rem ;
+}
+#Hebergements .carte-image img{
+  object-fit: cover;
+  width: 98%;
+  height: inherit;
+}
+ #Populaires{
+  position: relative;
+  top: -2rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border-radius: 0;
+  heigth: 58rem;
+ }
+ #Populaires h1, #Hebergements h1, #Activités h1{
+  font-size: 12px;
+ }
+ #Populaires .carte{
+  width: 16.2rem;
+  margin-left: 0.5rem;
+ }
+ #Populaires .carte-image img{
+  object-fit: cover;
+ }
+.activite-petite-resolution{
+  display: inline-block;
+  margin-left: 0.3rem;
+}
+ #Activités{
+  margin-top: 29rem;
+}
+.grand-ecran h1{
+  display: none;
+}
+#Activités a:hover{
+  text-decoration: none;
+  color: #0065fc;
+  border-bottom: 2px solid #0065fc;
+}
+ #Activités{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.4rem;
+}
+.photo-activité, .photo-activité1 {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  
+}
+.photo-activité .carte{
+  width: 16.8rem;
+  height: 8rem;
+  margin-top: 0;
+  margin-left: 0.3rem;
+}
+.photo-activité .carte-image{
+   width: 16.8rem;
+  height: 6.5rem;
+  
+}
+.photo-activité1 .carte{
+   width: 16.8rem;
+  height: 8rem;
+  margin: 3px;
+}
+.photo-activité1 .carte-image{
+   width: 16.8rem;
+  height: 6.5rem;
+ 
+}
+.cartes{
+  margin: 3px;
+  padding: 0;
+}
+.carte1, .carte2, .carte3, .carte4{
+  margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
+   width: 16.8rem;
+  height: 8rem;
+}
+.carte1 .carte-image img, .carte2 .carte-image img, .carte4 .carte-image img{
+  height:6.5rem ;
+  object-fit: cover;
+}
+.carte3 .carte-image img{
+   height:6.5rem ;
+   object-fit: fill;
+}
+
+  footer{
+    position: relative;
+    left: -1.3rem;
+    width: 17.5rem;
+    height: 15.8rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .a-propos strong{
+  	font-size: 9px;
+    margin-left: 5rem; 
+ }
+ ul li{
+ 	font-size: 9px;
+ 	margin-left: 4rem;
+ }
+   }

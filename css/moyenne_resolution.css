@@ -1,0 +1,171 @@
+@media screen and (min-width: 768px) and (max-width:  992px)
+{
+  html{
+    min-width: 768px;
+    max-width:  992px;
+  }
+  body{
+    with: 768px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    #en-tete nav{
+    display: inline-flex;
+    justify-content: space-evenly; 
+   }
+   #en-tete nav a:hover{
+        border-bottom: 2px solid #0065fc;
+        border-top: none;
+    }
+    #en-tete{ 
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+    }
+    #logo{
+     margin: auto;
+    }
+
+  nav{
+    font-size: 8px;
+  }
+  .icone i{
+    width: 20px;
+  }
+  h1{
+    font-size: 14px;
+  }
+  h2{
+    font-size: 9px;
+  }
+  p{
+    font-size: 7px;
+  }
+  span{
+    font-size: 9px;
+  }
+  strong{
+    font-size: 9px;
+  }
+  #generale{
+    display: flex;
+    flex-direction: column;
+  }
+  #Hebergements{
+    position: relative;
+    top: -1rem;
+    width: auto;
+    background-color: white;
+  }
+  #Hebergements a:hover{
+  border-bottom: solid 2px black;
+  color: #0065fc;
+  }
+  #Hebergements .carte{
+    height: 125px;
+    margin-top: 0;
+    border: 1px solid #f2f2f2;
+  }
+  #Hebergements .carte-image img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   padding: 0;
+   border-radius: 10px 10px 0px 0px;
+  }
+  #Hebergements .carte-titre{
+    padding-top: 3px;
+  }
+  #Hebergements a{
+    font-size: 14px;
+    border: none;
+  }
+  #Populaires{
+    background-color: white;
+    width: auto;
+    height: 200px;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
+  }
+  #Populaires h1{
+    color: #0065fc;
+    font-size: 14px;
+    padding: 0;
+    margin: 10px;
+  }
+  #Populaires .carte{
+    margin-top: 50px;
+    position: relative;
+    left: -120px;
+  }
+  #Populaires .carte-image{
+   width: inherit;
+   height: inherit;
+   border-radius: 10px 12px 0px 0px;
+   box-shadow: #f2f2f2 3px 3px 3px 0px; 
+
+  }
+  #Populaires .carte-body{
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    box-shadow: #f2f2f2 2px 2px 2px 0px; 
+  }
+  #Populaires .carte-titre{
+    position: relative;
+    top: -8px;
+    left: -1px;
+  }
+  #Populaires .carte-nuit{
+    padding-top: 8px;
+    padding-left: 7px;
+  }
+  #Populaires .carte-image img{
+    padding: 0;
+    border-radius: 10px 12px 0px 0px;
+    object-fit:cover;
+    height: 100%;
+    width: 99%;
+  }
+  #Populaires .carte-notation{
+    position: relative;
+    top:  -10px;
+    right: -9px;
+  }
+  .titre-populaire i{
+    margin-left: 10px;
+  }
+     #Activités{
+     display: flex;
+     flex-direction: column;
+  }
+  .grand-ecran  a:hover{
+    border-top: none;
+    border-bottom: solid 2px black;
+    color: #0065fc;
+  }
+  .photo-activité, .photo-activité1{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .photo-activité1 .carte{
+    margin-left: 0;
+  }
+  footer{
+    width: inherit;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .a-propos strong{
+    margin-left: 35px;
+  }
+  .a-propos ul li{
+    font-size: 8px;
+    margin-left: 20px;
+  }
+}
