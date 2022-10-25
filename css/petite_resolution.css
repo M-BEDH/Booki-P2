@@ -15,7 +15,7 @@
     }
   #en-tete nav a:hover{
      border-top: none;
-     border-bottom: 2px solid #0065fc;
+     border-bottom: 3px solid #0065fc;
        
     }
     #en-tete{ 
@@ -51,6 +51,9 @@
   .trouver{
     margin-top: 0.8rem;
     margin-left: 1rem;
+  }
+  form{
+    margin-top: 1.2rem;
   }
   .localisation{
     position: relative;
@@ -109,14 +112,6 @@
 .icones-petite-reolution{
  display: inline-flex;
 }
-.info{
-  position: relative;
-  top: -1rem;
-}
-.info img{
-  margin-left: 0;
-  margin-right: 5px;
-}
   #generale{
   	height: auto;
     display: flex;
@@ -132,7 +127,7 @@
   font-size: 11px;
  }
  #Hebergements a:hover{
-  border-bottom: 2px solid #0065fc;
+  border-bottom: 3px solid #0065fc;
  }
  #Hebergements .carte{
   box-shadow: #f2f2f2 2px 2px 2px 2px;
@@ -154,7 +149,6 @@
   margin-left: 1rem;
   margin-top: 1rem;
   border-radius: 0;
-  heigth: 58rem;
  }
  #Populaires h1, #Hebergements h1, #Activités h1{
   font-size: 12px;
@@ -179,7 +173,7 @@
 #Activités a:hover{
   text-decoration: none;
   color: #0065fc;
-  border-bottom: 2px solid #0065fc;
+  border-bottom: 3px solid #0065fc;
 }
  #Activités{
   display: flex;

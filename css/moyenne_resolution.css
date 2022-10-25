@@ -5,7 +5,7 @@
     max-width:  992px;
   }
   body{
-    with: 768px;
+    width: 768px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,7 +15,7 @@
     justify-content: space-evenly; 
    }
    #en-tete nav a:hover{
-        border-bottom: 2px solid #0065fc;
+        border-bottom: 3px solid #0065fc;
         border-top: none;
     }
     #en-tete{ 
@@ -59,7 +59,7 @@
     background-color: white;
   }
   #Hebergements a:hover{
-  border-bottom: solid 2px black;
+  border-bottom: solid 3px black;
   color: #0065fc;
   }
   #Hebergements .carte{
@@ -144,7 +144,7 @@
   }
   .grand-ecran  a:hover{
     border-top: none;
-    border-bottom: solid 2px black;
+    border-bottom: solid 3px black;
     color: #0065fc;
   }
   .photo-activité, .photo-activité1{

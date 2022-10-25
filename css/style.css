@@ -21,11 +21,8 @@ body{
      margin-right: 50px;
 }
 #en-tete nav a:hover{
-	border-top: solid 2px #0065fc;
+	border-top: solid 3px #0065fc;
 	color: #0065fc;
-}
-#logo img{
-	object-fit: cover;
 }
 a{
 	text-decoration: none;
@@ -120,13 +117,25 @@ margin-top: 1rem;
 	background-color: #DEEBFF;
 	transition: 0.5s;
 }
+.information{
+  display: flex;
+  align-items: center;
+}
 .info .fa-solid{
-	background-color: #0065fc;
-	color: white;
+	color: #0065fc;
+	font-size: 8px;
+	height: 1rem;
+	width: 1rem;
+	min-height: 1rem;
+	min-width: 1rem;
+	border: solid 1px #f2f2f2;
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.disponible{
 	font-size: 10px;
-	border: solid 1px black ;
-	border-radius: 80px;
-	margin-right: 8px;
 }
 #generale{
 	margin-top: 15px;
@@ -164,7 +173,7 @@ margin-top: 1rem;
 }
 #Hebergements .carte-image img{
 	object-fit: fill;
- 	width: 97%;
+ 	width: 97.5%;
  	height: 100%;
  	position: absolute;
  	border: solid 2px white;
@@ -298,7 +307,7 @@ h4{
 }
 .photo-activité, .photo-activité1{
 	 display: flex;
-    flex-wrap: no-wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
 }
 .photo-activité .carte{
