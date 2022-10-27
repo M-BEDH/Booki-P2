@@ -1,46 +1,43 @@
 @media screen and (max-width: 768px)
 {
 	html{
+    min-width: 360px;
 	  max-width: 768px;
 	}
   body{
   	box-sizing: border-box;
-    min-width: 360px;
-    max-width: 768px;
+    width: 360px;
     padding: 0;
-    margin-left: 2rem;
+    margin: auto;
   }
  #en-tete nav{
-    margin-left: 3rem;
+  margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
     }
   #en-tete nav a:hover{
      border-top: none;
      border-bottom: 3px solid #0065fc;
-       
+     background-clip: border-box; 
     }
     #en-tete{ 
       display: flex;
       flex-direction: column;
-    }
+    } 
     #logo{
-
-     margin-left: 8rem;
+      margin-left: 7rem;
     }
-    h1{
+    h1, h3{
       margin-left: 1rem;
     }
   h1, h3{
     font-size: 11px;
   }
-  
-  h3{
-    margin-left: 1rem;
-  }
   h2{
-    font-size: 9px;
+    font-size: 10px;
   }
   p{
-    font-size: 8px;
+    font-size: 9px;
   }
   span{
     font-size: 8.5px;
@@ -59,15 +56,15 @@
     position: relative;
     right: -0.1rem;
     border-radius: 8px 0px 0px 8px;
-    width: 1.7rem;
-    height: 1.7rem;
+    width: 2rem;
+    height: 1.8rem;
   }
   .localisation i{
     font-size: 11px;
   }
   .ville{
-    width:8rem;
-    height: 1.5rem;
+    width:12rem;
+    height: 1.6rem;
   }
   .Rechercher{
     display: none;
@@ -80,8 +77,8 @@
    background-color: #0065fc;
    color: white;
    border: none;
-   width: 1.7rem;
-   height: 1.7rem;
+   width: 1.8rem;
+   height: 1.8rem;
    border-radius: 8px;
 }
 .loupe i{
@@ -89,9 +86,10 @@
 
 }
   #filtres{
+    margin-top: 2rem;
     position: relative;
-    left: -1.5rem;
-    top: -1rem;
+    left: -2rem;
+    top: -1.5rem;
   	width: 10rem;
   	display: flex;
     flex-direction: column;
@@ -111,6 +109,10 @@
 }
 .icones-petite-reolution{
  display: inline-flex;
+}
+.info, .disponible{
+  position: relative;
+  left: -0.5rem;
 }
   #generale{
   	height: auto;
@@ -164,11 +166,11 @@
   display: inline-block;
   margin-left: 0.3rem;
 }
- #Activités{
-  margin-top: 29rem;
-}
 .grand-ecran h1{
   display: none;
+}
+ #Activités{
+  margin-top: 29rem;
 }
 #Activités a:hover{
   text-decoration: none;
@@ -209,7 +211,7 @@
 }
 .cartes{
   margin: 3px;
-  padding: 0;
+  padding: 0
 }
 .carte1, .carte2, .carte3, .carte4{
   margin-top: 0.5rem;
@@ -217,15 +219,9 @@
    width: 16.8rem;
   height: 8rem;
 }
-.carte1 .carte-image img, .carte2 .carte-image img, .carte4 .carte-image img{
+.carte1 .carte-image, .carte2 .carte-image, .carte3 .carte-image, .carte4 .carte-image{
   height:6.5rem ;
-  object-fit: cover;
 }
-.carte3 .carte-image img{
-   height:6.5rem ;
-   object-fit: fill;
-}
-
   footer{
     position: relative;
     left: -1.3rem;

@@ -66,7 +66,7 @@ margin-top: 1rem;
 	font-weight: bold;
     border: none;
 	width: 5rem;
-	height: 1.9rem;
+	height: 1.8rem;
 	background-color: #0065fc;
 	color: white;
 	border-radius: 0px 10px 10px 0px;	
@@ -90,7 +90,7 @@ margin-top: 1rem;
 }
 .icone{
 	height: 27px;
-	border: 2px solid  #F2F2F2;
+	border: 1.5px solid  #F2F2F2;
 	margin-left: 23px;
 	margin-top: 7px;
 	padding-top: 4px;
@@ -172,8 +172,8 @@ margin-top: 1rem;
    
 }
 #Hebergements .carte-image img{
-	object-fit: fill;
- 	width: 97.5%;
+	object-fit: cover;
+ 	width: 97%;
  	height: 100%;
  	position: absolute;
  	border: solid 2px white;
@@ -217,14 +217,11 @@ h1{
 	padding-top: 5px;
 }
 h2{
-	font-size: 10px;
+	font-size: 12px;
 }
 h3{
-font-size: 10px;
+font-size: 11px;
 } 
-h4{
-	font-size: 14px;
-}
 .fa-sharp{
  	color: lightgrey;
  }
@@ -240,7 +237,7 @@ h4{
  	position: relative;
  	left: -10px;
  	width: 275px;
- 	height: 410px;
+ 	height: 400px;
  	background-color: #f2f2f2;
  	border-radius: 20px;
 }
@@ -253,7 +250,7 @@ h4{
 	background-color: white;
 	border-radius: 10px;
 	width: 225px;
-	height: 95px;
+	height: 93px;
 	margin-top: 20px;
 	margin-left: 25px;
 	display: flex;
@@ -261,14 +258,14 @@ h4{
 }
 #Populaires .carte-image{
 	width: 100px;
-	height:94px ;
+	height:90px ;
     position: relative;
     overflow: hidden; 
 }
 #Populaires .carte-image img{
   object-fit: cover;	
   width: 100%;
-  height: 95%;
+  height: 96%;
   position: absolute;
   padding-top: 1px;
   border: solid 2px white;
@@ -291,19 +288,21 @@ h4{
     font-size: 6px;
     color: #0065fc;
 }
+.grand-ecran a:hover{
+	color: #0065fc;
+	}
 .activite-petite-resolution{
 	display: none;
 }
-
 #Activités{
 	display: inline-flex;
     margin-left: 35px;
 }
-.grand-ecran a:hover{
-	color: #0065fc;
-}
 #Activités h2{
 	margin-left: 5px;
+}
+#Activités a:hover{
+	color: #0065fc;
 }
 .photo-activité, .photo-activité1{
 	 display: flex;
@@ -326,8 +325,8 @@ h4{
 }
 .photo-activité .carte img{
 	object-fit: cover;
-	width:110%;
-	height:100%;
+	width:105%;
+	height:115%;
 	position: absolute;
 	border-radius: 10px 10px 0px 0px;
 }
@@ -348,8 +347,8 @@ h4{
 }
 .photo-activité1 .carte-image img {
 	object-fit: cover;
-	width:110%;
-	height:100%;
+	width:100%;
+	height:110%;
 	position: absolute;
 	border-radius: 10px 10px 0px 0px;
 }
@@ -360,15 +359,14 @@ h4{
 	margin-right: 15px;
 }
 .carte1{
-	background-color: white;
 	width: 200px;
-	height: 149px;
+	height: 147px;
 	box-shadow: #f2f2f2 2px 2px 2px 2px;
 	border-radius: 10px;
 }
 .carte1 .carte-image{
 	width: 200px;
-	height: 112px;
+	height: 110px;
 	position: relative;
 	overflow: hidden;
 }
@@ -381,43 +379,45 @@ h4{
 
 }
 .carte2{
+	height: 110px;
 	background-color: white;
-	margin-top: 25px;
+	margin-top: 20px;
 	box-shadow: #f2f2f2 2px 2px 2px 2px;
 	border-radius: 10px;	
 }
 .carte2 .carte-image{
     width: 200px;
-	height: 81px;
+	height: 85px;
 	position: relative;
 	overflow: hidden;
 }
 .carte2 .carte-image img{
 	object-fit: cover;
 	width: 100%;
-	height: 90%;
+	height: 150%;
 	position: absolute;
 	border-radius: 10px 10px 0px 0px;
 }
 .carte3 {
+	height: 120px;
     background-color: white;
     border-radius: 10px;
     box-shadow: #f2f2f2 2px 2px 2px 2px;
 }
 .carte3 .carte-image{
     width: 200px;
-	height: 85px;
+	height: 90px;
 	position: relative;
 	overflow: hidden;
 }
 .carte3 .carte-image img{
-	object-fit: fill;
+	object-fit: cover;
 	width: 100%;
-	height: 100%;
-	position: absolute;
+	height: 150%;
 	border-radius: 10px 10px 0px 0px;
 }
 .carte4 {
+	height: 123px;
 	background-color: white;
 	margin-top: 38px;
     border-radius: 10px;
@@ -426,7 +426,7 @@ h4{
 }
 .carte4 .carte-image{
     width: 200px;
-	height: 100px;
+	height: 97px;
 	position: relative;
 	overflow: hidden;
 	
@@ -434,7 +434,7 @@ h4{
 .carte4 .carte-image img{
 	object-fit: cover;
 	width: 100%;
-	height: 90%;
+	height: 150%;
 	position: absolute;
 	border-radius: 10px 10px 0px 0px;
 }
