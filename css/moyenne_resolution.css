@@ -114,9 +114,7 @@
    border-radius: 10px 12px;
   }
   #Populaires .carte-body{
-    width: 10vw;
     display: flex;
-    flex-direction: row;
   }
   #Populaires .carte-titre{
     position: relative;
