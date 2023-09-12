@@ -167,7 +167,7 @@ margin-top: 1rem;
 	margin-top: 10px;
 }
 #Hebergements .carte-image {
-	width: 158px;
+	width: 100%;
     height: 80px;
     position: relative;
     overflow: hidden;
@@ -208,6 +208,7 @@ font-size: 16px;
 	padding-top: 5px;
 }
 .hebergement{
+	width: 97%;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -252,10 +253,10 @@ font-size: 11px;
 #Populaires .carte{
 	background-color: white;
 	border-radius: 10px;
-	width: 16vw;
+	width: 91%;
 	height: 93px;
 	margin-top: 20px;
-	margin-left: 21px;
+	margin-left: 10px;
 	display: flex;
 }
 #Populaires .carte-image{
