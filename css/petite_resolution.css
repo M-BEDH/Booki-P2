@@ -127,7 +127,7 @@
  }
  .hebergement{
   position: relative;
-  left: -2rem;
+  left: -2.5rem;
  }
  #Hebergements h1{
   position: relative;
@@ -166,7 +166,7 @@
   font-size: 12px;
  }
  #Populaires .carte{
-  width: 86vw;
+  width: 90vw;
   height: 94px;
   margin-left: 0.5rem;
  }
