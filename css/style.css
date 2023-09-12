@@ -1,4 +1,4 @@
-@import url("https://fonts.google.com/specimen/Raleway?query=rale")
+@import url("https://fonts.google.com/specimen/Raleway?query=rale");
 
 html{
 	min-width: 992px;
@@ -145,8 +145,8 @@ margin-top: 1rem;
 	justify-content: space-around;
 }
 #Hebergements{
-	width: 36.5rem;
-	height: 25rem;
+	width: 38.5rem;
+	height: 27rem;
 	background-color: #f2f2f2;
 	border-radius: 15px;
 	display: flex;
@@ -239,7 +239,7 @@ font-size: 11px;
  	position: relative;
  	left: -10px;
  	width: 275px;
- 	height: 400px;
+ 	height: 432px;
  	background-color: #f2f2f2;
  	border-radius: 20px;
 }
@@ -247,26 +247,26 @@ font-size: 11px;
 	display: flex;
 	justify-content: space-between;
 	padding-right: 25px;
+	padding-bottom: 16px;
 }
 #Populaires .carte{
 	background-color: white;
 	border-radius: 10px;
-	width: 225px;
+	width: 16vw;
 	height: 93px;
 	margin-top: 20px;
-	margin-left: 25px;
+	margin-left: 21px;
 	display: flex;
-	flex-wrap: wrap;
 }
 #Populaires .carte-image{
-	width: 100px;
+	width: 16vw;
 	height:90px ;
     position: relative;
     overflow: hidden; 
 }
 #Populaires .carte-image img{
   object-fit: cover;	
-  width: 100%;
+  width: 90%;
   height: 96%;
   position: absolute;
   padding-top: 1px;
@@ -275,6 +275,7 @@ font-size: 11px;
   padding-left: 1px;
 }
 .carte-body{
+	width: 19vw;
 	display: flex;
 	flex-direction: column;	
 	text-align: left;

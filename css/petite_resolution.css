@@ -14,7 +14,8 @@
  #en-tete nav{
   margin-bottom: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+   
     }
   #en-tete nav a:hover{
      border-top: none;
@@ -24,9 +25,13 @@
     #en-tete{ 
       display: flex;
       flex-direction: column;
+      padding: 10px;
     } 
     #logo{
       margin: auto;
+    }
+    h1{
+      padding: 10px;
     }
   h1, h3{
     font-size: 11px;
@@ -44,9 +49,7 @@
   	font-size: 8.5px;
   }
   .trouver{
-    position: relative;
-    left: -4rem;
-    margin-top: 0.8rem;
+    padding: 10px;
   }
   form{
     margin-top: 1.2rem;
@@ -89,7 +92,6 @@
     position: relative;
     top: -1.5rem;
     left: -1rem;
-  	width: 10rem;
   	display: flex;
     flex-direction: column;
   }
@@ -112,20 +114,18 @@
 .information{
   position: relative;
   top: -1rem;
-  margin-left: 1rem;
 }
   #generale{
+    width: 100vw;
     display: flex;
     flex-direction: column-reverse;
  }
  #Hebergements{
-  width: 55vw;
-  height: 15vh;
+  width: 100vw;
   background-color: white;
+  padding: 20px;
  }
  .hebergement{
-  display: flex;
-  flex-direction: column;
   position: relative;
   left: -2rem;
  }
@@ -138,17 +138,17 @@
   border-bottom: 3px solid #0065fc;
  }
  #Hebergements .carte {
-  width: 53vw;
-  height: 13vh;
+  width: 87vw;
+  margin-left: 7%;
   box-shadow: #f2f2f2 2px 2px 2px 2px;
  }
  #Hebergements .carte-image{
-  width: 53vw;
+  width: 87vw;
   height: 9vh;
  }
 #Hebergements .carte-image img{
   object-fit: cover;
-  width: 98.5%;
+  width: 86vw;
   height: inherit;
 }
 #Hebergements strong{
@@ -156,17 +156,28 @@
   left: -2rem;
 }
  #Populaires{
-  width: 53vw;
+  width: 98vw;
   position: relative;
   top: -1rem;
   border-radius: 0;
+  padding: 17px;
  }
  #Populaires h1, #Hebergements h1, #Activités h1{
   font-size: 12px;
  }
  #Populaires .carte{
-  width: 50vw;
+  width: 86vw;
+  height: 94px;
   margin-left: 0.5rem;
+ }
+ #Populaires .carte-body{
+  width: 48vw;
+  padding-left: 3%;
+  font-size: 20px;
+   
+ }
+ #Populaires .carte-image{
+   width: 34vw;
  }
  #Populaires .carte-image img{
   object-fit: cover;
@@ -179,40 +190,37 @@
   display: none;
 }
  #Activités{
+  display: flex;
+  flex-direction: column;
   position: relative;
   left: -1rem;
-  margin-top: 56rem;
+  margin-top: 34rem;
 }
 #Activités a:hover{
   text-decoration: none;
   color: #0065fc;
   border-bottom: 3px solid #0065fc;
 }
- #Activités{
-  display: flex;
-  flex-direction: column;
-  margin-left: 0.4rem;
-}
 .photo-activité, .photo-activité1 {
   display: flex;
   flex-direction: column;
   }
 .photo-activité .carte{
-  width: 53vw;
-  height: 12vh;
+  width: 85vw;
+  height: 13vh;
   margin-left: 0.3rem;
 }
 .photo-activité .carte-image{
-   width: 53vw;
+   width: 85vw;
    height: 9vh;
 }
 .photo-activité1 .carte{
-  width: 53vw;
+  width: 85vw;
   height: 12vh;
   margin: 3px;
 }
 .photo-activité1 .carte-image{
-   width: 53vw;
+   width: 85vw;
    height: 9vh;
 }
 .cartes{
@@ -222,20 +230,17 @@
 .carte1, .carte2, .carte3, .carte4{
   margin-top: 0.5rem;
   margin-bottom: 0.2rem;
-  width: 53vw;
+  width: 85vw;
   height: 12vh;
 }
 .carte1 .carte-image, .carte2 .carte-image, .carte3 .carte-image, .carte4 .carte-image{
   height: 9vh;
 }
   footer{
-    position: relative;
-    left: -2.2rem;
-    width: auto;
+    width: 100vw;
     height: 30vh;
     padding-top: 1rem;
     margin-top: 1rem;
-    margin-left: 1.5rem;
     display: flex;
     flex-direction: column;
   }
